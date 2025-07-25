@@ -1,0 +1,122 @@
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+/* Sidebar Glassmorphism */
+.sidebar-glass {
+  width: 250px;
+  backdrop-filter: blur(15px);
+  background: #070a10;
+
+  color: #fff;
+  padding: 20px 10px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-glass .sidebar-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #f1c40f;
+}
+
+.sidebar-glass ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-glass li {
+  margin-bottom: 15px;
+}
+
+.sidebar-glass li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 12px 15px;
+  display: block;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.sidebar-glass li a:hover {
+  background-color: rgba(236, 240, 241, 0.1);
+  transform: translateX(5px);
+}
+
+.sidebar-glass li a.active {
+  background-color: rgba(241, 196, 15, 0.2);
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 100px;
+  padding: 30px;
+  width: 100%;
+  background: #fdfefe;
+}
+
+.btn-logout {
+  margin: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: calc(100% - 40px); /* full width with margin */
+}
+
+.btn-logout:hover {
+  background: linear-gradient(135deg, #f12711, #f5af19);
+  transform: scale(1.05);
+}
+
+.btn-logout:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.username {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #ffffffcc;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+}
+.user-info {
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #ffa500; /* naranja */
+}
+
+.role-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.role-text {
+  font-weight: 500;
+  color: #fff; /* o naranja si prefieres */
+}

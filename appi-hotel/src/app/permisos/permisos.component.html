@@ -1,0 +1,88 @@
+<div class="container">
+    <h2>Gestión de Permisos</h2>
+  
+    <!-- Botón para abrir o cerrar el formulario -->
+    <button (click)="toggleForm()" class="btn-toggle">
+      {{ showForm ? 'Cerrar formulario' : 'Nuevo permiso' }}
+    </button>
+  
+    <!-- Formulario de creación o edición -->
+    <div *ngIf="showForm" class="form-container">
+      <form [formGroup]="permissionForm" (ngSubmit)="submitPermission()">
+        <!-- Campo oculto para manejar el id (usado en edición) -->
+        <input formControlName="id" type="hidden">
+  
+        <!-- Nombre del permiso -->
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input formControlName="name" id="name" type="text" class="form-control" />
+        </div>
+  
+        <!-- Descripción del permiso -->
+        <div class="form-group">
+          <label for="description">Descripción:</label>
+          <textarea formControlName="description" id="description" class="form-control"></textarea>
+        </div>
+  
+        <!-- Estado Activo del permiso -->
+        <div class="form-group checkbox-group">
+          <label for="active">Activo:</label>
+          <input type="checkbox" id="active" formControlName="active" />
+        </div>
+  
+        <!-- Botones de acción -->
+        <div class="form-actions">
+          <button type="submit" [disabled]="permissionForm.invalid || isLoading" class="btn-submit">
+            {{ permissionForm.value.id ? 'Actualizar' : 'Crear' }}
+          </button>
+          <button type="button" (click)="closeForm()" class="btn-cancel">
+            Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+  
+    <!-- Cargando indicador -->
+    <div *ngIf="isLoading" class="loading-indicator">Cargando...</div>
+  
+    <!-- Búsqueda por ID -->
+    <!-- <div class="mb-3 d-flex align-items-center gap-2 search-container">
+      <input type="number" class="form-control w-auto" placeholder="Buscar por ID" [(ngModel)]="searchId" />
+      <button class="btn btn-primary search-button" (click)="getPermissionById()">Buscar</button>
+      <button class="btn btn-secondary search-button" (click)="loadPermissions()">Limpiar</button>
+    </div> -->
+  
+    <!-- Tabla de Permisos -->
+    <div *ngIf="permissions.length > 0">
+      <!-- <h3>Lista de Permisos</h3> -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Activo</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let permission of permissions; let i = index">
+            <td>{{ permission.name }}</td>
+            <td>{{ permission.description }}</td>
+            <td>{{ permission.active ? 'Sí' : 'No' }}</td>
+            <td>
+              <button (click)="editPermission(i)" [disabled]="isLoading" class="btn-edit">Editar</button>
+              <button *ngIf="esAdmin" (click)="deletePermission(permission.id)" [disabled]="isLoading" class="btn-delete">Eliminar</button>
+              <button (click)="deleteLogic(permission.id)" class="btn btn-danger btn-sm btn-editloig">Eliminar Lógico</button>
+            <!-- Botón visible solo para administradores -->
+            <button *ngIf="esAdmin" (click)="recuperarEliminados(permission.id)" class="btn btn-danger btn-sm btn-editloig">
+              Recuperar registros eliminados
+            </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Mensaje cuando no hay permisos -->
+    <p *ngIf="!permissions.length && !isLoading">No hay permisos registrados.</p>
+  </div>

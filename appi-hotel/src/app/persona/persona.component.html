@@ -1,0 +1,95 @@
+<div class="container">
+    <h2>Gestión de Personas</h2>
+  
+    <!-- Botón para abrir o cerrar el formulario -->
+    <button (click)="toggleForm()" class="btn-toggle">
+      {{ showForm ? 'Cerrar formulario' : 'Nueva persona' }}
+    </button>
+  
+    <!-- Formulario de creación o edición -->
+    <div *ngIf="showForm" class="form-container">
+      <form [formGroup]="personForm" (ngSubmit)="submitPerson()">
+        <!-- Campo oculto para manejar el id (usado en edición) -->
+        <input formControlName="id" type="hidden">
+  
+        <!-- Nombre -->
+        <div class="form-group">
+          <label for="firstname">Nombre:</label>
+          <input formControlName="firstname" id="firstname" type="text" class="form-control" />
+        </div>
+  
+        <!-- Apellido -->
+        <div class="form-group">
+          <label for="lastname">Apellido:</label>
+          <input formControlName="lastname" id="lastname" type="text" class="form-control" />
+        </div>
+  
+        <!-- Teléfono -->
+        <div class="form-group">
+          <label for="phonenumber">Teléfono:</label>
+          <input formControlName="phonenumber" id="phonenumber" type="text" class="form-control" />
+        </div>
+  
+        <!-- Estado Activo -->
+        <div class="form-group checkbox-group">
+          <label for="active">Activo:</label>
+          <input type="checkbox" id="active" formControlName="active" />
+        </div>
+  
+        <!-- Botones de acción -->
+        <div class="form-actions">
+          <button type="submit" [disabled]="personForm.invalid || isLoading" class="btn-submit">
+            {{ personForm.value.id ? 'Actualizar' : 'Crear' }}
+          </button>
+          <button type="button" (click)="closeForm()" class="btn-cancel">
+            Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+  
+    <!-- Indicador de carga -->
+    <div *ngIf="isLoading" class="loading-indicator">Cargando...</div>
+  
+    <!-- Búsqueda por ID -->
+    <!-- <div class="mb-3 d-flex align-items-center gap-2 search-container">
+      <input type="number" class="form-control w-auto" placeholder="Buscar por ID" [(ngModel)]="searchId" />
+      <button class="btn btn-primary search-button" (click)="getPersonById()">Buscar</button>
+      <button class="btn btn-secondary search-button" (click)="loadPersons()">Limpiar</button>
+    </div> -->
+  
+    <!-- Tabla de Personas -->
+    <div *ngIf="persons.length > 0">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Teléfono</th>
+            <th>Activo</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let person of persons; let i = index">
+            <td>{{ person.firstname }}</td>
+            <td>{{ person.lastname }}</td>
+            <td>{{ person.phonenumber }}</td>
+            <td>{{ person.active ? 'Sí' : 'No' }}</td>
+            <td>
+              <button (click)="editPerson(i)" [disabled]="isLoading" class="btn-edit">Editar</button>
+              <button *ngIf="esAdmin" (click)="deletePerson(person.id)" [disabled]="isLoading" class="btn-delete">Eliminar</button>
+              <button (click)="deleteLogic(person.id)" class="btn btn-danger btn-sm btn-editloig">Eliminar Lógico</button>
+            <!-- Botón visible solo para administradores -->
+            <button *ngIf="esAdmin" (click)="recuperarEliminados(person.id)" class="btn btn-danger btn-sm btn-editloig">
+              Recuperar registros eliminados
+            </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Mensaje si no hay registros -->
+    <p *ngIf="!persons.length && !isLoading">No hay personas registradas.</p>
+  </div>

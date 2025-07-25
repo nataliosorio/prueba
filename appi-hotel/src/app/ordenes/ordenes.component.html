@@ -1,0 +1,82 @@
+<div class="container">
+  <h2>Gestión de Órdenes</h2>
+
+  <!-- Botón para mostrar/ocultar formulario -->
+  <button (click)="toggleForm()" class="btn-toggle" [disabled]="isLoading">
+    {{ showForm ? 'Cancelar' : 'Crear Orden' }}
+  </button>
+
+  <!-- Cargando... -->
+  <div *ngIf="isLoading" class="loading-indicator">Cargando...</div>
+
+  <!-- Formulario de creación o edición -->
+  <div *ngIf="showForm" class="form-container">
+    <form [formGroup]="orderForm" (ngSubmit)="editIndex === null ? submitForm() : updateOrder()">
+
+      <input formControlName="id" type="hidden">
+
+      <label for="clienteId">Cliente:</label>
+      <select id="clienteId" formControlName="clienteId" class="form-input">
+        <option [ngValue]="null" disabled selected>Seleccione un cliente</option>
+        <option *ngFor="let cliente of clientes" [value]="cliente.id">{{ cliente.nombre }}</option>
+      </select>
+
+      <label for="pizzaId">Pizza:</label>
+      <select id="pizzaId" formControlName="pizzaId" class="form-input">
+        <option [ngValue]="null" disabled selected>Seleccione una pizza</option>
+        <option *ngFor="let pizza of pizzas" [value]="pizza.id">{{ pizza.name }}</option>
+      </select>
+
+      <label for="cantidad">Cantidad:</label>
+      <input
+        id="cantidad"
+        type="number"
+        formControlName="cantidad"
+        class="form-input"
+        min="1"
+      />
+
+      <label for="estado">Estado:</label>
+      <select id="estado" formControlName="estado" class="form-input">
+        <option value="Pendiente">Pendiente</option>
+        <option value="Entregado">Entregado</option>
+        <option value="Cancelado">Cancelado</option>
+      </select>
+
+      <button type="submit" class="btn-submit" [disabled]="orderForm.invalid || isLoading">
+        {{ editIndex === null ? 'Crear' : 'Actualizar' }}
+      </button>
+    </form>
+  </div>
+
+  <!-- Tabla de Órdenes -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Cliente</th>
+        <th>Pizza</th>
+        <th>Cantidad</th>
+        <th>Estado</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let orden of ordenes; let i = index">
+        <td>{{ orden.fecha | date:'short' }}</td>
+        <td>{{ orden.customer.nombre }}</td>
+        <td>{{ orden.pizza.name }}</td>
+        <td>{{ orden.cantidad }}</td>
+        <td>{{ orden.estado }}</td>
+        <td>
+          <button (click)="editOrder(i)" class="btn-edit" [disabled]="isLoading">Editar</button>
+          <button *ngIf="esAdmin" (click)="deleteOrder(orden.id)" class="btn-delete" [disabled]="isLoading">Eliminar</button>
+          <button (click)="deleteLogic(orden.id)" class="btn-delete" [disabled]="isLoading">Eliminar lógicamente</button>
+          <button *ngIf="esAdmin" (click)="recoverOrder(orden.id)" class="btn btn-danger btn-sm btn-editloig">Recuperar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="ordenes.length === 0 && !isLoading">No hay órdenes registradas.</p>
+</div>

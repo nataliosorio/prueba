@@ -1,0 +1,80 @@
+<div class="container">
+    <h2>Gestión de Roles</h2>
+
+    <!-- Botón para abrir o cerrar el formulario -->
+    <button (click)="toggleForm()" class="btn-toggle">
+      {{ showForm ? 'Cerrar formulario' : 'Nuevo rol' }}
+    </button>
+
+    <!-- Formulario de creación o edición -->
+    <div *ngIf="showForm" class="form-container">
+      <form [formGroup]="rolForm" (ngSubmit)="submitRol()">
+        <!-- Campo oculto para manejar el id (usado en edición) -->
+        <input formControlName="id" type="hidden">
+
+        <!-- Nombre del rol -->
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input formControlName="name" id="name" type="text" class="form-control" />
+        </div>
+
+        <!-- Descripción del rol -->
+        <div class="form-group">
+          <label for="description">Descripción:</label>
+          <textarea formControlName="description" id="description" class="form-control"></textarea>
+        </div>
+
+        <!-- Estado Activo del rol -->
+        <div class="form-group checkbox-group">
+          <label for="active">Activo:</label>
+          <input type="checkbox" id="active" formControlName="active" />
+        </div>
+
+        <!-- Botones de acción -->
+        <div class="form-actions">
+          <button type="submit" [disabled]="rolForm.invalid || isLoading" class="btn-submit">
+            {{ rolForm.value.id ? 'Actualizar' : 'Crear' }}
+          </button>
+          <button type="button" (click)="closeForm()" class="btn-cancel">
+            Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Cargando indicador -->
+    <div *ngIf="isLoading" class="loading-indicator">Cargando...</div>
+  
+    <!-- Tabla de Roles -->
+    <div *ngIf="roles.length > 0">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Activo</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let rol of roles; let i = index">
+            <td>{{ rol.name }}</td>
+            <td>{{ rol.description }}</td>
+            <td>{{ rol.active ? 'Sí' : 'No' }}</td>
+            <td>
+              <button (click)="editRol(i)" [disabled]="isLoading" class="btn-edit">Editar</button>
+              <button *ngIf="esAdmin" (click)="deleteRol(rol.id)" [disabled]="isLoading" class="btn-delete">Eliminar</button>
+              <button (click)="deleteLogic(rol.id)" class="btn btn-danger btn-sm btn-editloig">Eliminar Lógico</button>
+            <!-- Botón visible solo para administradores -->
+            <button *ngIf="esAdmin" (click)="recuperarEliminados(rol.id)" class="btn btn-danger btn-sm btn-editloig">
+              Recuperar registros eliminados
+            </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mensaje cuando no hay roles -->
+    <p *ngIf="!roles.length && !isLoading">No hay roles registrados.</p>
+  </div>

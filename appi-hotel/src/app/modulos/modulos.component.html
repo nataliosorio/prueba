@@ -1,0 +1,83 @@
+<div class="container">
+    <h2>Gestión de Citas</h2>
+  
+    <!-- Botón para abrir o cerrar el formulario -->
+    <button (click)="toggleForm()" class="btn-toggle">
+      {{ showForm ? 'Cerrar Cita' : 'Nueva Cita' }}
+    </button>
+  
+   <!-- Formulario para crear o editar una cita -->
+<div *ngIf="showForm" class="form-container">
+  <form [formGroup]="citaForm" (ngSubmit)="editIndex === null ? submitForm() : updateCita()">
+
+    <input formControlName="Id" type="hidden">
+
+    <label for="FechaHora">Fecha y Hora:</label>
+    <input id="FechaHora" type="datetime-local" formControlName="FechaHora" class="form-input" required />
+
+    <label for="MotivoConsulta">Motivo de Consulta:</label>
+    <input id="MotivoConsulta" type="text" formControlName="MotivoConsulta" class="form-input" required />
+
+    <label for="PacienteId">Paciente:</label>
+    <select id="PacienteId" formControlName="PacienteId" class="form-input" required>
+      <option [ngValue]="null" disabled selected>Seleccione un Paciente</option>
+      <option *ngFor="let paciente of pacientes" [value]="paciente.Id">{{ paciente.NombreCompleto }}</option>
+    </select>
+
+    <label for="DoctorId">Doctor:</label>
+    <select id="DoctorId" formControlName="DoctorId" class="form-input" required>
+      <option [ngValue]="null" disabled selected>Seleccione un Doctor</option>
+      <option *ngFor="let doctor of doctores" [value]="doctor.Id">{{ doctor.NombreCompleto }}</option>
+    </select>
+
+    <div class="form-group checkbox-group">
+      <label for="active">Activo:</label>
+      <input type="checkbox" id="active" formControlName="active" />
+    </div>
+
+    <button type="submit" class="btn-submit" [disabled]="citaForm.invalid || isLoading">
+      {{ editIndex === null ? 'Crear' : 'Actualizar' }}
+    </button>
+  </form>
+</div>
+  
+    <!-- Cargando indicador -->
+    <div *ngIf="isLoading" class="loading-indicator">Cargando...</div>
+  
+  
+    <!-- Tabla de Módulos -->
+    <div *ngIf="citas.length > 0">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Fecha y Hora</th>
+            <th>Motivo</th>
+            <th>Paciente</th>
+            <th>Doctor</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let module of citas; let i = index">
+           <td>{{ module.FechaHora }}</td>
+<td>{{ module.MotivoConsulta }}</td>
+<td>{{ module.PacienteId }}</td>
+<td>{{ module.DoctorId }}</td>
+            <td>{{ module.active ? 'Sí' : 'No' }}</td>
+            <td>
+              <button (click)="editCita(i)" [disabled]="isLoading" class="btn-edit">Editar</button>
+              <button *ngIf="esAdmin" (click)="deleteCita(module.Id)" [disabled]="isLoading" class="btn-delete">Eliminar</button>
+              <button (click)="deleteLogic(module.Id)" class="btn btn-danger btn-sm btn-editloig">Eliminar Lógico</button>
+              <!-- Botón visible solo para administradores -->
+              <button *ngIf="esAdmin" (click)="recuperarEliminados(module.Id)" class="btn btn-danger btn-sm btn-editloig">
+                Recuperar registros eliminados
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Mensaje cuando no hay módulos -->
+    <p *ngIf="!citas.length && !isLoading">No hay módulos registrados.</p>
+  </div>

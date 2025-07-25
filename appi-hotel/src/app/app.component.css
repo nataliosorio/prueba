@@ -1,0 +1,130 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #111827;
+  color: white;
+}
+
+
+
+.content-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.top-header {
+  height: 60px;
+  background-color: #1f2937;
+  border-bottom: 1px solid #374151;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.search-container {
+  position: relative;
+  width: 300px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 15px 8px 35px;
+  border-radius: 8px;
+  border: none;
+  background-color: #374151;
+  color: white;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.notification-icon, .settings-icon {
+  font-size: 18px;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.user-profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.user-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.main-content {
+  margin-left: 250px; 
+  padding: 20px;
+}
+
+/* .btn-edit {
+  background-color: #ffc107;
+  border: none;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-editloig {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-right: 4px;
+  margin-top: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-editloig:hover {
+  background-color: #5a6268;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+border: none;
+color: white;
+padding: 6px 12px;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 4px;
+transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+} */

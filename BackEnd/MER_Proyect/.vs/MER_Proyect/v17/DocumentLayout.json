@@ -1,0 +1,1203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\ordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\ordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\model\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\model\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\business\\services\\ordersbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\services\\ordersbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\data\\services\\ordersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\services\\ordersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\context\\datainitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\context\\datainitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\model\\pizzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\model\\pizzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\pizzascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\pizzascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725213246_Pg_pizzasDbM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entity\\Migrations\\PostgreSql\\20250725213246_Pg_pizzasDbM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725212957_Pg_pizzasDbM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entity\\Migrations\\PostgreSql\\20250725212957_Pg_pizzasDbM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\extensions\\databaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\extensions\\databaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\data\\services\\rolformpermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\services\\rolformpermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\business\\services\\citabusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\services\\citabusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\data\\services\\formmodulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\services\\formmodulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\data\\services\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\services\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\context\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\context\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\data\\services\\citadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\services\\citadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725205413_Pg_pizzasDbM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entity\\Migrations\\PostgreSql\\20250725205413_Pg_pizzasDbM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\detailsorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\detailsorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\pizzadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\pizzadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\createdetailsorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\createdetailsorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\model\\detailsorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\model\\detailsorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725202726_Pg_pizzasDbM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entity\\Migrations\\PostgreSql\\20250725202726_Pg_pizzasDbM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725201548_Pg_pizzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entity\\Migrations\\PostgreSql\\20250725201548_Pg_pizzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\model\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\model\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\citadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\citadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\citacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\citacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\formcontrollerprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\formcontrollerprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DD4651C-175D-44FA-890C-039E5E7B4646}|Diagram\\Diagram.csproj|C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\diagram\\modulofinalse.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3DD4651C-175D-44FA-890C-039E5E7B4646}|Diagram\\Diagram.csproj|solutionrelative:diagram\\modulofinalse.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DD4651C-175D-44FA-890C-039E5E7B4646}|Diagram\\Diagram.csproj|C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\diagram\\modulofinal (1).edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3DD4651C-175D-44FA-890C-039E5E7B4646}|Diagram\\Diagram.csproj|solutionrelative:diagram\\modulofinal (1).edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\helpers\\reflectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\reflectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\business\\services\\rolformpermissionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\services\\rolformpermissionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\annotations\\foreignincludeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\annotations\\foreignincludeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\utilities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\utilities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\aud\\factoryaud\\auditstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\aud\\factoryaud\\auditstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\databasefactory\\aud\\auditdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\databasefactory\\aud\\auditdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\aud\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\aud\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\aud\\services\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\aud\\services\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\databasefactory\\databasefactoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\databasefactory\\databasefactoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\databasefactory\\idatabasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\databasefactory\\idatabasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\aud\\strategy\\combinedauditstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\aud\\strategy\\combinedauditstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\aud\\strategy\\databaseauditstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\aud\\strategy\\databaseauditstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\aud\\strategy\\fileauditstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\aud\\strategy\\fileauditstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\aud\\strategy\\iauditstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\aud\\strategy\\iauditstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\aud\\factoryaud\\iauditstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\aud\\factoryaud\\iauditstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\databasefactory\\sqlserverdatabasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\databasefactory\\sqlserverdatabasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\backgroundservicess\\ibackgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\backgroundservicess\\ibackgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\backgroundservicess\\queuedhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\backgroundservicess\\queuedhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\utilities\\backgroundservicess\\backgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7C5890-B351-4428-8B39-643C13FB1A7F}|Utilities\\Utilities.csproj|solutionrelative:utilities\\backgroundservicess\\backgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\entity\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\business\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\business\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\pruebaworkskill\\backend\\mer_proyect\\web\\controllers\\rolformpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolformpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\MySql\\20250523180113_MySql_Esquemas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\SqlServer\\20250523181903_SqlServer_Esquemas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250523175838_Pg_Esquemas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataInitial.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Context\\DataInitial.cs",
+              "RelativeDocumentMoniker": "Entity\\Context\\DataInitial.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Context\\DataInitial.cs",
+              "RelativeToolTip": "Entity\\Context\\DataInitial.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T21:17:42.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PizzasController.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\PizzasController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PizzasController.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\PizzasController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PizzasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:35:30.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pizzas.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\Pizzas.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Pizzas.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\Pizzas.cs",
+              "RelativeToolTip": "Entity\\Model\\Pizzas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:02:51.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\Orders.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Orders.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\Orders.cs",
+              "RelativeToolTip": "Entity\\Model\\Orders.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:08:36.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Customer.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\Customer.cs",
+              "RelativeToolTip": "Entity\\Model\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:06:34.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\CreateOrderDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CreateOrderDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:32:33.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersBusiness.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Services\\OrdersBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\OrdersBusiness.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Services\\OrdersBusiness.cs",
+              "RelativeToolTip": "Business\\Services\\OrdersBusiness.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T21:00:56.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersData.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\OrdersData.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\OrdersData.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\OrdersData.cs",
+              "RelativeToolTip": "Data\\Services\\OrdersData.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAwIEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:55:26.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\OrdersDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\OrdersDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\OrdersDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\OrdersDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:32:00.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250725213246_Pg_pizzasDbM.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725213246_Pg_pizzasDbM.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\PostgreSql\\20250725213246_Pg_pizzasDbM.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725213246_Pg_pizzasDbM.cs",
+              "RelativeToolTip": "Entity\\Migrations\\PostgreSql\\20250725213246_Pg_pizzasDbM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T21:32:46.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250725212957_Pg_pizzasDbM.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725212957_Pg_pizzasDbM.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\PostgreSql\\20250725212957_Pg_pizzasDbM.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725212957_Pg_pizzasDbM.cs",
+              "RelativeToolTip": "Entity\\Migrations\\PostgreSql\\20250725212957_Pg_pizzasDbM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T21:29:57.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RolFormPermissionRepository.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\RolFormPermissionRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\RolFormPermissionRepository.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\RolFormPermissionRepository.cs",
+              "RelativeToolTip": "Data\\Services\\RolFormPermissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:08:02.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DatabaseExtension.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Extensions\\DatabaseExtension.cs",
+              "RelativeDocumentMoniker": "Web\\Extensions\\DatabaseExtension.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Extensions\\DatabaseExtension.cs",
+              "RelativeToolTip": "Web\\Extensions\\DatabaseExtension.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:33:03.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Web\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T21:11:57.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Web\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:43:24.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\UserData.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\UserData.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\UserData.cs",
+              "RelativeToolTip": "Data\\Services\\UserData.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:12:16.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CitaController.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\CitaController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\CitaController.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\CitaController.cs",
+              "RelativeToolTip": "Web\\Controllers\\CitaController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswF4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:24:31.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Extensions\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "Web\\Extensions\\ServiceExtension.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Extensions\\ServiceExtension.cs",
+              "RelativeToolTip": "Web\\Extensions\\ServiceExtension.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T22:07:47.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Web\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Web\\AutoMapperProfile.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:20:44.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Web\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T21:02:57.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CitaBusiness.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Services\\CitaBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\CitaBusiness.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Services\\CitaBusiness.cs",
+              "RelativeToolTip": "Business\\Services\\CitaBusiness.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAowF8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:13:23.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext .cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Context\\ApplicationDbContext .cs",
+              "RelativeDocumentMoniker": "Entity\\Context\\ApplicationDbContext .cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Context\\ApplicationDbContext .cs",
+              "RelativeToolTip": "Entity\\Context\\ApplicationDbContext .cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:20:16.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormModuleRepository.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\FormModuleRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\FormModuleRepository.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\FormModuleRepository.cs",
+              "RelativeToolTip": "Data\\Services\\FormModuleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:08:27.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CitaData.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\CitaData.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\CitaData.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Services\\CitaData.cs",
+              "RelativeToolTip": "Data\\Services\\CitaData.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwHQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:09:38.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250725205413_Pg_pizzasDbM.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725205413_Pg_pizzasDbM.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\PostgreSql\\20250725205413_Pg_pizzasDbM.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725205413_Pg_pizzasDbM.cs",
+              "RelativeToolTip": "Entity\\Migrations\\PostgreSql\\20250725205413_Pg_pizzasDbM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:54:14.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DetailsOrderDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\DetailsOrderDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\DetailsOrderDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\DetailsOrderDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\DetailsOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:31:17.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DoctorDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\DoctorDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\DoctorDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\DoctorDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\DoctorDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:35:09.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PizzaDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\PizzaDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\PizzaDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\PizzaDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\PizzaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:30:57.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\CustomerDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:30:34.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateDetailsOrderDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CreateDetailsOrderDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\CreateDetailsOrderDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CreateDetailsOrderDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\CreateDetailsOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:32:51.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250725202726_Pg_pizzasDbM.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725202726_Pg_pizzasDbM.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\PostgreSql\\20250725202726_Pg_pizzasDbM.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725202726_Pg_pizzasDbM.cs",
+              "RelativeToolTip": "Entity\\Migrations\\PostgreSql\\20250725202726_Pg_pizzasDbM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:27:26.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250725201548_Pg_pizzas.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725201548_Pg_pizzas.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\PostgreSql\\20250725201548_Pg_pizzas.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250725201548_Pg_pizzas.cs",
+              "RelativeToolTip": "Entity\\Migrations\\PostgreSql\\20250725201548_Pg_pizzas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:15:48.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DetailsOrder.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\DetailsOrder.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\DetailsOrder.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\DetailsOrder.cs",
+              "RelativeToolTip": "Entity\\Model\\DetailsOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:10:48.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:31:53.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\appsettings.json",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\appsettings.json",
+              "RelativeToolTip": "Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T18:14:21.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CitaDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CitaDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\CitaDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CitaDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\CitaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:35:42.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\Cita.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Cita.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\Model\\Cita.cs",
+              "RelativeToolTip": "Entity\\Model\\Cita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:11:46.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PacienteDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\PacienteDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\PacienteDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\PacienteDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\PacienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:34:37.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CitaCreate.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CitaCreate.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\CitaCreate.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\CitaCreate.cs",
+              "RelativeToolTip": "Entity\\DTOs\\CitaCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:16:42.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PacienteController.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\PacienteController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PacienteController.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\PacienteController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PacienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:36:17.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FormControllerPrueba.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\FormControllerPrueba.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\FormControllerPrueba.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\FormControllerPrueba.cs",
+              "RelativeToolTip": "Web\\Controllers\\FormControllerPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:36:22.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:54:51.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "moduloFinalSe.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Diagram\\moduloFinalSe.edmx",
+              "RelativeDocumentMoniker": "Diagram\\moduloFinalSe.edmx",
+              "ToolTip": "C:\\PruebaModelSegurity\\BackEnd\\MER_Proyect\\Diagram\\moduloFinalSe.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\PruebaModelSegurity\\BackEnd\\MER_Proyect\\Diagram\\moduloFinalSe.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-30T01:06:12.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwDoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:31:46.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ReflectionHelper.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Helpers\\ReflectionHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Helpers\\ReflectionHelper.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Helpers\\ReflectionHelper.cs",
+              "RelativeToolTip": "Utilities\\Helpers\\ReflectionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:16:55.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Repository.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Data\\Repository\\Repository.cs",
+              "RelativeToolTip": "Data\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:08:13.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "moduloFinal (1).edmx [Diagram1]",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Diagram\\moduloFinal (1).edmx",
+              "RelativeDocumentMoniker": "Diagram\\moduloFinal (1).edmx",
+              "ToolTip": "C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Diagram\\moduloFinal (1).edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Diagram\\moduloFinal (1).edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-29T22:10:25.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ForeignIncludeAttribute.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Annotations\\ForeignIncludeAttribute.cs",
+              "RelativeDocumentMoniker": "Utilities\\Annotations\\ForeignIncludeAttribute.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Annotations\\ForeignIncludeAttribute.cs",
+              "RelativeToolTip": "Utilities\\Annotations\\ForeignIncludeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:10:38.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Services\\IAuditService.cs",
+              "RelativeDocumentMoniker": "Utilities\\Aud\\Services\\IAuditService.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Services\\IAuditService.cs",
+              "RelativeToolTip": "Utilities\\Aud\\Services\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:42:58.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuditDbContextFactory.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DataBaseFactory\\Aud\\AuditDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Entity\\DataBaseFactory\\Aud\\AuditDbContextFactory.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DataBaseFactory\\Aud\\AuditDbContextFactory.cs",
+              "RelativeToolTip": "Entity\\DataBaseFactory\\Aud\\AuditDbContextFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAMwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:18:44.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RolFormPermissionBusiness.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Services\\RolFormPermissionBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\RolFormPermissionBusiness.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Services\\RolFormPermissionBusiness.cs",
+              "RelativeToolTip": "Business\\Services\\RolFormPermissionBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:20:30.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Services\\AuditService.cs",
+              "RelativeDocumentMoniker": "Utilities\\Aud\\Services\\AuditService.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Services\\AuditService.cs",
+              "RelativeToolTip": "Utilities\\Aud\\Services\\AuditService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwCEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:15:26.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AuditStrategyFactory.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\FactoryAud\\AuditStrategyFactory.cs",
+              "RelativeDocumentMoniker": "Utilities\\Aud\\FactoryAud\\AuditStrategyFactory.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\FactoryAud\\AuditStrategyFactory.cs",
+              "RelativeToolTip": "Utilities\\Aud\\FactoryAud\\AuditStrategyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:15:39.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Utilities.csproj",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Utilities.csproj",
+              "RelativeDocumentMoniker": "Utilities\\Utilities.csproj",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Utilities.csproj",
+              "RelativeToolTip": "Utilities\\Utilities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T12:47:20.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DatabaseFactoryProvider.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DataBaseFactory\\DatabaseFactoryProvider.cs",
+              "RelativeDocumentMoniker": "Entity\\DataBaseFactory\\DatabaseFactoryProvider.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DataBaseFactory\\DatabaseFactoryProvider.cs",
+              "RelativeToolTip": "Entity\\DataBaseFactory\\DatabaseFactoryProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:33:32.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IDatabaseFactory.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DataBaseFactory\\IDatabaseFactory.cs",
+              "RelativeDocumentMoniker": "Entity\\DataBaseFactory\\IDatabaseFactory.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DataBaseFactory\\IDatabaseFactory.cs",
+              "RelativeToolTip": "Entity\\DataBaseFactory\\IDatabaseFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:34:17.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CombinedAuditStrategy.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Strategy\\CombinedAuditStrategy.cs",
+              "RelativeDocumentMoniker": "Utilities\\Aud\\Strategy\\CombinedAuditStrategy.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Strategy\\CombinedAuditStrategy.cs",
+              "RelativeToolTip": "Utilities\\Aud\\Strategy\\CombinedAuditStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:00:45.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "FileAuditStrategy.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Strategy\\FileAuditStrategy.cs",
+              "RelativeDocumentMoniker": "Utilities\\Aud\\Strategy\\FileAuditStrategy.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Strategy\\FileAuditStrategy.cs",
+              "RelativeToolTip": "Utilities\\Aud\\Strategy\\FileAuditStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:58:55.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IAuditStrategy.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Strategy\\IAuditStrategy.cs",
+              "RelativeDocumentMoniker": "Utilities\\Aud\\Strategy\\IAuditStrategy.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Strategy\\IAuditStrategy.cs",
+              "RelativeToolTip": "Utilities\\Aud\\Strategy\\IAuditStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:15:04.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IAuditStrategyFactory.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\FactoryAud\\IAuditStrategyFactory.cs",
+              "RelativeDocumentMoniker": "Utilities\\Aud\\FactoryAud\\IAuditStrategyFactory.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\FactoryAud\\IAuditStrategyFactory.cs",
+              "RelativeToolTip": "Utilities\\Aud\\FactoryAud\\IAuditStrategyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:49:51.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DatabaseAuditStrategy.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Strategy\\DatabaseAuditStrategy.cs",
+              "RelativeDocumentMoniker": "Utilities\\Aud\\Strategy\\DatabaseAuditStrategy.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\Aud\\Strategy\\DatabaseAuditStrategy.cs",
+              "RelativeToolTip": "Utilities\\Aud\\Strategy\\DatabaseAuditStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:13:40.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SqlServerDatabaseFactory.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DataBaseFactory\\SqlServerDatabaseFactory.cs",
+              "RelativeDocumentMoniker": "Entity\\DataBaseFactory\\SqlServerDatabaseFactory.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DataBaseFactory\\SqlServerDatabaseFactory.cs",
+              "RelativeToolTip": "Entity\\DataBaseFactory\\SqlServerDatabaseFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:16:51.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BackgroundTaskQueue.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\BackgroundServicess\\BackgroundTaskQueue.cs",
+              "RelativeDocumentMoniker": "Utilities\\BackgroundServicess\\BackgroundTaskQueue.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\BackgroundServicess\\BackgroundTaskQueue.cs",
+              "RelativeToolTip": "Utilities\\BackgroundServicess\\BackgroundTaskQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:55:01.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IBackgroundTaskQueue.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\BackgroundServicess\\IBackgroundTaskQueue.cs",
+              "RelativeDocumentMoniker": "Utilities\\BackgroundServicess\\IBackgroundTaskQueue.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\BackgroundServicess\\IBackgroundTaskQueue.cs",
+              "RelativeToolTip": "Utilities\\BackgroundServicess\\IBackgroundTaskQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:54:21.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "QueuedHostedService.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\BackgroundServicess\\QueuedHostedService.cs",
+              "RelativeDocumentMoniker": "Utilities\\BackgroundServicess\\QueuedHostedService.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Utilities\\BackgroundServicess\\QueuedHostedService.cs",
+              "RelativeToolTip": "Utilities\\BackgroundServicess\\QueuedHostedService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:57:45.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20250523180113_MySql_Esquemas.cs",
+              "DocumentMoniker": "C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\MySql\\20250523180113_MySql_Esquemas.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\MySql\\20250523180113_MySql_Esquemas.cs",
+              "ToolTip": "C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\MySql\\20250523180113_MySql_Esquemas.cs",
+              "RelativeToolTip": "..\\..\\..\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\MySql\\20250523180113_MySql_Esquemas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:01:13.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Entity\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:21:57.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Email\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Business\\Email\\IEmailService.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Email\\IEmailService.cs",
+              "RelativeToolTip": "Business\\Email\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T21:50:17.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Email\\EmailService.cs",
+              "RelativeDocumentMoniker": "Business\\Email\\EmailService.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Business\\Email\\EmailService.cs",
+              "RelativeToolTip": "Business\\Email\\EmailService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T22:03:43.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "RolFormPermissionController.cs",
+              "DocumentMoniker": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\RolFormPermissionController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\RolFormPermissionController.cs",
+              "ToolTip": "C:\\pruebaWorkSkill\\BackEnd\\MER_Proyect\\Web\\Controllers\\RolFormPermissionController.cs",
+              "RelativeToolTip": "Web\\Controllers\\RolFormPermissionController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAcwGkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:56:28.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20250523181903_SqlServer_Esquemas.cs",
+              "DocumentMoniker": "C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\SqlServer\\20250523181903_SqlServer_Esquemas.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\SqlServer\\20250523181903_SqlServer_Esquemas.cs",
+              "ToolTip": "C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\SqlServer\\20250523181903_SqlServer_Esquemas.cs",
+              "RelativeToolTip": "..\\..\\..\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\SqlServer\\20250523181903_SqlServer_Esquemas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:19:03.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20250523175838_Pg_Esquemas.cs",
+              "DocumentMoniker": "C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250523175838_Pg_Esquemas.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250523175838_Pg_Esquemas.cs",
+              "ToolTip": "C:\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250523175838_Pg_Esquemas.cs",
+              "RelativeToolTip": "..\\..\\..\\c-sharp\\Model-Segurity-API\\BackEnd\\MER_Proyect\\Entity\\Migrations\\PostgreSql\\20250523175838_Pg_Esquemas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:58:38.659Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

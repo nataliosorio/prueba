@@ -1,0 +1,87 @@
+<div class="container">
+    <h2>Gestión de Formularios</h2>
+  
+    <!-- Botón para abrir o cerrar el formulario -->
+    <button (click)="toggleForm()" class="btn-toggle">
+      {{ showForm ? 'Cerrar formulario' : 'Nuevo formulario' }}
+    </button>
+  
+    <!-- Formulario de creación o edición -->
+    <div *ngIf="showForm" class="form-container">
+      <form [formGroup]="formForm" (ngSubmit)="submitForm()">
+        <!-- Campo oculto para manejar el id (usado en edición) -->
+        <input formControlName="id" type="hidden">
+  
+        <!-- Nombre del formulario -->
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input formControlName="name" id="name" type="text" class="form-control" />
+        </div>
+  
+        <!-- Descripción del formulario -->
+        <div class="form-group">
+          <label for="description">Descripción:</label>
+          <textarea formControlName="description" id="description" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group checkbox-group">
+            <label for="active">Activo:</label>
+            <input type="checkbox" id="active" formControlName="active" />
+          </div>
+  
+        <!-- Botones de acción -->
+        <div class="form-actions">
+          <button type="submit" [disabled]="formForm.invalid || isLoading" class="btn-submit">
+            {{ formForm.value.id ? 'Actualizar' : 'Crear' }}
+          </button>
+          <button type="button" (click)="closeForm()" class="btn-cancel">
+            Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+  
+    <!-- Cargando indicador -->
+    <div *ngIf="isLoading" class="loading-indicator">Cargando...</div>
+
+    <!-- <div class="mb-3 d-flex align-items-center gap-2 search-container">
+        <input type="number" class="form-control w-auto" placeholder="Buscar por ID" [(ngModel)]="searchId" />
+        <button class="btn btn-primary search-button" (click)="getFormById()">Buscar</button>
+        <button class="btn btn-secondary search-button" (click)="loadForms()">Limpiar</button>
+    </div> -->
+
+    
+  
+    <!-- Tabla de Formularios -->
+    <div *ngIf="forms.length > 0">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Activo</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let form of forms; let i = index">
+            <td>{{ form.name }}</td>
+            <td>{{ form.description }}</td>
+            <td>{{ form.active ? 'Sí' : 'No' }}</td>
+            <td>
+              <button (click)="editForm(i)" [disabled]="isLoading" class="btn-edit">Editar</button>
+              <button *ngIf="esAdmin" (click)="deleteForm(form.id)" [disabled]="isLoading" class="btn-delete">Eliminar</button>
+              <button (click)="deleteLogic(form.id)" class="btn btn-danger btn-sm btn-editloig">Eliminar Logico</button>
+            <!-- Botón visible solo para administradores -->
+              <button *ngIf="esAdmin" (click)="recuperarEliminados(form.id)" class="btn btn-danger btn-sm btn-editloig">
+                Recuperar registros eliminados
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Mensaje cuando no hay formularios -->
+    <p *ngIf="!forms.length && !isLoading">No hay formularios registrados.</p>
+  </div>

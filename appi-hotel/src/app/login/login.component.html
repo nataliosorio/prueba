@@ -1,0 +1,123 @@
+
+  <div class="form-wrapper" *ngIf="!mostrarRegistro">
+    <form (ngSubmit)="onLogin()" #loginForm="ngForm" class="login-form">
+      <h2 class="form-title">Iniciar Sesión</h2>
+  
+      <div class="form-group">
+        <label for="username">Usuario</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          [(ngModel)]="login.username"
+          required
+          class="input-field"
+        />
+      </div>
+  
+      <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          [(ngModel)]="login.password"
+          required
+          class="input-field"
+        />
+      </div>
+  
+      <button type="submit" class="btn-submit">Iniciar sesión</button>
+      <button (click)="mostrarRegistro = true" class="btn-crear-cuenta">Crear cuenta</button>
+      <!-- <div id="googleSignInDiv">Iniciar Sesión con Google</div> -->
+
+    </form>
+  
+      <!-- <button (click)="mostrarRegistro = true" class="btn-crear-cuenta">Crear cuenta</button> -->
+
+    
+    
+  </div>
+<div class="form-wrapper" *ngIf="mostrarRegistro">
+  <form (ngSubmit)="onRegister()" #registerForm="ngForm" class="login-form">
+    <h2 class="form-title">Crear Cuenta</h2>
+
+     <div class="form-group">
+      <label for="Firstname">First Name</label>
+      <input
+        type="text"
+        id="Firstname"
+        name="Firstname"
+        [(ngModel)]="registro.Firstname"
+        required
+        class="input-field"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Lastname">Last Name</label>
+      <input
+        type="text"
+        id="Lastname"
+        name="Lastname"
+        [(ngModel)]="registro.Lastname"
+        required
+        class="input-field"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Phonenumber">Phone Number</label>
+      <input
+        type="text"
+        id="Phonenumber"
+        name="Phonenumber"
+        [(ngModel)]="registro.Phonenumber"
+        required
+        class="input-field"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Username">UserName</label>
+      <input
+        type="text"
+        id="Username"
+        name="Username"
+        [(ngModel)]="registro.Username"
+        required
+        class="input-field"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Email">Correo electrónico</label>
+      <input
+        type="email"
+        id="Email"
+        name="Email"
+        [(ngModel)]="registro.Email"
+        required
+        class="input-field"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Password">Contraseña</label>
+      <input
+        type="Password"
+        id="Password"
+        name="Password"
+        [(ngModel)]="registro.Password"
+        required
+        class="input-field"
+      />
+    </div>
+
+    <button type="submit" class="btn-submit">Registrarse</button>
+    <button type="button" (click)="mostrarRegistro = false" class="btn-cancelar">Cancelar</button>
+  </form>
+</div>
+
+  <div id="googleSignInDiv"></div>
+

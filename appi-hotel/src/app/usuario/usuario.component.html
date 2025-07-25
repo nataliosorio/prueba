@@ -1,0 +1,94 @@
+
+  <div class="container">
+    <h2>Gestión de Usuarios</h2>
+  
+    <!-- Botones -->
+    <button (click)="toggleForm()" class="btn-toggle" [disabled]="isLoading">
+      {{ showForm ? 'Cancelar' : 'Crear Usuario' }}
+    </button>
+    <!-- <button (click)="refrescar()" class="btn-action">Refrescar</button> -->
+  
+    <!-- Indicador de carga -->
+    <div *ngIf="isLoading" class="loading-indicator">Cargando...</div>
+  
+    <!-- Formulario para crear o editar cliente -->
+    <div *ngIf="showForm" class="form-container">
+      <form [formGroup]="usersForm" (ngSubmit)="editIndex === null ? submitForm() : updateHotel()">
+        
+        <input formControlName="id" type="hidden">
+
+        <label for="username">Username:</label>
+        <input
+          id="username"
+          type="text"
+          formControlName="username"
+          placeholder="username del cliente"
+          class="form-input"
+        />
+  
+        <label for="email">Email:</label>
+        <input
+          id="email"
+          type="email"
+          formControlName="email"
+          placeholder="Email del cliente"
+          class="form-input"
+        />
+
+        <label for="password">Password:</label>
+        <input
+          id="password"
+          type="password"
+          formControlName="password"
+          placeholder="contraseña del cliente"
+          class="form-input"
+        />
+
+        <div class="form-group checkbox-group">
+          <label for="active">Activo:</label>
+          <input type="checkbox" id="active" formControlName="active" />
+        </div>
+  
+        <label for="personid">Persona:</label>
+        <select id="personid" formControlName="personid" class="form-input">
+          <option [ngValue]="null" disabled selected>Seleccione una Persona</option>
+          <option *ngFor="let person of personaList" [value]="person.id">{{ person.firstname }}</option>
+        </select>
+  
+        <button type="submit" class="btn-submit" [disabled]="usersForm.invalid || isLoading">
+          {{ editIndex === null ? 'Crear' : 'Actualizar' }}
+        </button>
+      </form>
+    </div>
+  
+    <!-- Tabla de clientes -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Activo</th>
+          <th>Persona</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of usuarios; let i = index">
+          <td>{{ user.username }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.password }}</td>
+          <td>{{ user.active ? 'Sí' : 'No' }}</td>
+          <td>{{ user.personname }}</td>
+          <td>
+            <button (click)="editHotel(i)" class="btn-edit" [disabled]="isLoading">Editar</button>
+             <button *ngIf="esAdmin" (click)="deleteForm(user.id)" [disabled]="isLoading" class="btn-delete">Eliminar</button>
+            <button (click)="deleteLogicHotel(user.id)" class="btn-delete" [disabled]="isLoading">Eliminar lógicamente</button>
+            <button *ngIf="esAdmin" (click)="recuperarEliminados(user.id)" class="btn btn-danger btn-sm btn-editloig">
+              Recuperar registros eliminados
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
